@@ -1,0 +1,45 @@
+body{
+    background-color: #eeeeee; /* Couleur grise légère */
+}
+.container {
+    width: 345px;
+    background-color: white;
+    margin:32px auto;
+    padding:20px;
+    border-radius: 3%;
+}
+
+h1, nav {
+    /* centre tous les textes de h1, nav et footer */
+    text-align: center;
+    border-radius: 3%;
+}
+
+img {
+    border-radius: 12px;
+    width: 50vw;
+    height: 25vh;
+    margin:20px 0;
+
+}
+header h1, nav {
+    background-color: rgb(255, 205, 179);
+    padding: 10px 0;
+    border-radius: 3%;
+}
+
+nav a {
+    margin-right: 12px;
+    font-size:20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred
+}
+h1{
+    margin:0;
+    padding:0
+}
+a { text-decoration: none;}
+#up{
+    color: rgb(0, 0, 0);
+}

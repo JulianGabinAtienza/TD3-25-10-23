@@ -1,0 +1,57 @@
+body{
+    background-color: #eeeeee; /* Couleur grise légère */
+}
+.container {
+    width: 500px;
+    background-color: white;
+    margin:32px auto;
+    padding:20px;
+    border-radius: 3%;
+}
+
+h1, nav, footer {
+    /* centre tous les textes de h1, nav et footer */
+    text-align: center;
+    border-radius: 3%;
+}
+
+img {
+    border-radius: 12px;
+    width: 400px;
+    margin:20px 0;
+
+}
+header h1, nav, footer {
+    background-color: rgb(255, 205, 179);
+    padding: 10px 0;
+    border-radius: 3%;
+}
+header {
+    color: darkred;
+}
+nav a {
+    margin-right: 12px;
+    font-size:20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred
+}
+h1{
+    margin:0;
+    padding:0
+}
+table, td, th {
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 475px;
+
+}
+table {
+    text-align: center;
+}
+td, th {
+    text-align: center;
+}
+a { text-decoration: none;}

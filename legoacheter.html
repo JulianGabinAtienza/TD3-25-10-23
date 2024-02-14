@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego-Acheter</title>
+    <link rel="stylesheet" href="legoacheter.css">
+</head>
+<body>
+    <div class="container">
+    <h1>LEGO Webstore</h1>
+    <hr>
+    <ul>
+        <li><a href="lego.html" rel="noopener noreferrer">Accueil</a></li>
+        <li><a href="legoacheter.html" rel="noopener noreferrer">Acheter</a></li>
+    </ul>
+    <hr>
+    <h2>Acheter des LEGO</h2>
+    <p>Remplissez le formulaire ci-dessous pour commander des LEGO !</p>
+    <h3>Informations personnelles</h3>
+    <p>Civilité :</p>
+    <form>
+        <label>Mr. :</label>
+        <input type="radio" name="NewsLetter" value="Mr." required>
+        
+        <label>Mme. :</label>
+        <input type="radio" name="NewsLetter" value="Mme." required>
+        <br>
+        <label for="Nom">Nom :</label>
+        <br>
+        <input name="Nom" type="text" placeholder="Votre nom ici ..." required>
+        <br>
+        <label for="Prénom">Prénom :</label>
+        <br>
+        <input type="text" name="Prénom" placeholder="Votre prénom..." required>
+        <br>
+        <label for="email">Email :</label>
+        <br>
+        <input type="email" name="email" placeholder="Votre email..." required>
+        <br>
+        <label for="Quantité">Quantité commandée :</label>
+        <select name="Quantité" id="Quantité">
+            <option value="1 boîte">1 boîte</option>
+            <option value="2 boîtes">2 boîtes</option>
+            <option value="3 boîtes">3 boîtes</option>
+            <option value="4 boîtes">4 boîtes</option>
+        </select>
+        <br>
+        <p>Adresse de livraison :</p>
+        <textarea name="Adresse de livraison" id="Adresse de livraison" cols="30" rows="10"></textarea>
+        <h3>Confirmation</h3>
+        <label for="confirmation">J'ai relu ma commande et certifie que ces informations sont correctes.</label>
+        <input type="checkbox" name="confirmation" required></input>
+        <input type="submit" value="Comfirmer la commande">
+    </form>
+    <p><a href="#" id="up">Retour en haut de la page</a>
+</div>
+</body>
+</html>
